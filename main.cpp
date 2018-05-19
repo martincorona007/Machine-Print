@@ -129,11 +129,11 @@ int main(){
     //cout << "\ncuantos datos? ";
     //std::cin>>n;
     QueueCircular k;
-    printf("\nTiempo a Maquina A: ");
+    printf("\nTime to Machine A: ");
     std::cin>>a;
-    printf("\nTiempo a Maquina B: ");
+    printf("\nTime to Machine B: ");
     std::cin>>b;
-    printf("\nTiempo a Maquina C: ");
+    printf("\nTime to Machine C: ");
     std::cin>>c;
     k.machine(a,b,c);
     /*for (int i = 0; i <=n ; ++i) {
